@@ -1,0 +1,14 @@
+---
+
+laptops:
+  hosts:
+    my-laptop:
+      ansible_connection: local
+
+servers:
+  hosts:
+    server1:
+      ansible_connection: ssh
+      ansible_host:       "{{ server1_ssh_host }}"
+      ansible_user:       "{{ server1_ssh_user }}"
+      ansible_password:   "{{ server1_ssh_password }}"

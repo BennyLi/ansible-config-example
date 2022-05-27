@@ -1,0 +1,11 @@
+---
+
+- name: Setup all laptops
+  hosts: laptops
+  roles:
+    - print-facts-and-vars
+
+- name: Setup server1 only
+  hosts: server1
+  roles:
+    - print-facts-and-vars

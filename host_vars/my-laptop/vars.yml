@@ -1,0 +1,7 @@
+---
+
+# -----  User variables  {{{1
+user_name:  'my-user'
+user_group: 'the-group'
+user_shell: '/bin/bash'
+

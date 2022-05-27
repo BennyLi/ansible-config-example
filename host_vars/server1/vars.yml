@@ -1,0 +1,5 @@
+---
+
+server1_ssh_host:     "127.0.0.1"
+server1_ssh_user:     "{{ vault_server1_ssh_user }}"
+server1_ssh_password: "{{ vault_server1_ssh_password }}"

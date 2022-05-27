@@ -1,0 +1,3 @@
+---
+
+a_secret_used_by_multiple_devices_in_the_servers_groups: "{{ vault_a_secret_used_by_multiple_devices_in_the_servers_groups }}"
